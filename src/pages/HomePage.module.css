@@ -9,6 +9,8 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  text-align: center;
 }
 .Homepage_card {
   /* border: 1px solid black; */
@@ -19,18 +21,44 @@
   color: white;
   font-size: 20px;
   margin-top: 80px;
+  text-transform:capitalize;
+  
+  
+}
+.Homepage_card_breed{
+  margin-top: 30px;
 }
 /* Media query */
 @media (max-width:720px){
     .Homepage_container{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         margin: 0 auto;
     }
     .Homepage_card{
         max-width: 100%;
         min-height: 200px;
-        margin-top: 100px;
+        margin-top: 120px;
     }
+    .Homepage_card_breed{
+      margin-top: 80px;
+    }
+}
+
+
+@media (max-width:420px){
+  .Homepage_container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      margin: 0 auto;
+  }
+  .Homepage_card{
+      max-width: 100%;
+      min-height: 200px;
+      margin-top: 120px;
+  }
+  .Homepage_card_breed{
+    margin-top: 80px;
+  }
 }
 

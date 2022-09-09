@@ -26,12 +26,14 @@ const Homepage = () => {
       <div className={styles.Homepage_container}>
         {name.map((el, id) => {
           return (
-            <div
-              className={styles.Homepage_card}
+            <div className={styles.Homepage_card}>
+              <div
+              className={styles.Homepage_card_breed}
               key={id}
               onClick={() => navigate(`/${el}`)}
             >
               {el}
+            </div>
             </div>
           );
         })}

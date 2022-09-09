@@ -12,18 +12,18 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 90px;
+  margin-top: 90px auto;
   /* border: 1px solid black; */
 }
 input {
-  width: 30%;
+  width: 50%;
   height: 4vh;
   margin-top: 90px;
+  border: 1px solid blue;
 }
 button {
   padding: 5px;
-  margin-left: 10px;
+  margin-left: 20px;
   width: 120px;
   height: 40px;
   border-radius: 0px 95px 0px 95px;
@@ -41,7 +41,10 @@ button:hover {
 }
 
 img {
-  width: 300px;
+  width: 100%;
+}
+.Search_Container_Card_image_main{
+  margin-top: 50px;
 }
 /* .Search_Container_input_button{
     border: 1px solid red;
@@ -50,7 +53,42 @@ img {
   @media (max-width:720px){
     .Search_Container_Card{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         width: 100%;
+        margin: 50px auto;
     }
+    /* .Search_Container_input_button{
+      margin-top: 50px;
+    } */
+    .Search_Container_Card_image_main{
+      margin-top: 50px;
+    }
+    input {
+      width: 60%;
+      height: 4vh;
+      margin-top: 150px;
+      border: 1px solid blue;
+    }
+}
+
+@media (max-width:420px){
+  .Search_Container_Card{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+      margin: 0 auto;
+  }
+  .Search_Container_Card_image_main{
+    margin-top: 50px;
+  }
+  /* .Search_Container_input_button{
+    margin-top: 50px;
+  } */
+  input {
+    width: 50%;
+    height: 4vh;
+    margin-top: 150px;
+    border: 1px solid blue;
+  }
+ 
 }

@@ -38,6 +38,7 @@ const Search = () => {
           <button onClick={() => searchItem(text)}>Search</button>
         </div>
 
+        <div className={styles.Search_Container_Card_image_main}>
         <div className={styles.Search_Container_Card}>
           {name.map((el, id) => {
             return (
@@ -46,6 +47,7 @@ const Search = () => {
               </div>
             );
           })}
+        </div>
         </div>
       </div>
     </div>
