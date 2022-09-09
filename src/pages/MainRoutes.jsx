@@ -14,6 +14,7 @@ const MainRoutes = () => {
         <Route path={"/:id"} element={<Puppy />}></Route>
         <Route path={"/search"} element={<Search />}></Route>
       </Routes>
+      
     </>
   );
 };
