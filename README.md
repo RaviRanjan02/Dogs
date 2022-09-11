@@ -6,7 +6,7 @@ A website where you can search and get images of all dogs breeds
 
 
 # Tech Stacks Used:
-I used React JS , CSS , HTML , JavaScript.
+I used React JS , CSS , HTML , JavaScript, Media Queries.
 
 
 # Snaps of my Website:
