@@ -2,11 +2,12 @@
 
 ## Introduction to my project:
 
-A website where you can search and get images of all dogs breeds
+A website where you can search and get images of all dogs breeds.
 
 
 # Tech Stacks Used:
-I used React JS , CSS , HTML , JavaScript, Media Queries.
+I used React JS , CSS , HTML , JavaScript.
+It is full responsive for all screens.
 
 
 # Snaps of my Website:
