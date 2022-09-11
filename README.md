@@ -2,7 +2,7 @@
 
 ## Introduction to my project:
 
-A website where you can search and get images of all dogs breeds.
+A website where you can search and get image different dogs breeds.
 
 
 # Tech Stacks Used:
